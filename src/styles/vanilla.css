@@ -1,0 +1,44 @@
+.container {
+    position: relative;
+}
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    position: relative;
+}
+.container .overlay.overlay-modal {
+    opacity: 0.8;
+    z-index: -1;
+    border-radius: 16%;
+}
+.video-modal {
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+   
+}
+.video-modal .video-player {
+    -webkit-box-shadow: 0px 0px 50px 50px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 50px 50px rgba(0,0,0,0.5);
+}
+.container .close-modal {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 29px;
+    border-radius: 50px;
+    right: -40px;
+    top: -40px;
+    font-weight: bold;
+}
+html .container .info_panel  {
+    padding: 6% 5% 0;
+}
+html .container .info_panel .overview {
+    overflow: auto;
+    height: 160px;
+}
