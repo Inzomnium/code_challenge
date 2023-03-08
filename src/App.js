@@ -11,7 +11,7 @@ import WatchLater from './components/WatchLater'
 import YouTubePlayer from './components/YoutubePlayer'
 import './app.scss'
 
-import useInfiniteScroll from './data/useInfiniteScroll'
+import useInfiniteScroll from './hooks/useInfiniteScroll'
 
 const App = () => {
 
